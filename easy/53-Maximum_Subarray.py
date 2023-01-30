@@ -1,10 +1,10 @@
-def maxSubArray(self, nums: List[int]) -> int:
+def max_sub_array(self, nums: List[int]) -> int:
     ans = nums[0]
-    curSum = 0
+    cur_sum = 0
     
     for val in nums:
-        if curSum < 0:
-            curSum = 0
-        curSum += val
-        ans = max(ans, curSum)
+        if cur_sum < 0:
+            cur_sum = 0
+        cur_sum += val
+        ans = max(ans, cur_sum)
     return ans

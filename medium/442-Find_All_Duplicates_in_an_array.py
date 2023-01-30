@@ -1,4 +1,4 @@
-def findDuplicates(self, nums: List[int]) -> List[int]:
+def find_duplicates(self, nums: List[int]) -> List[int]:
     ans = []
     for index, val in enumerate(nums):
         value = abs(val)

@@ -1,7 +1,7 @@
-def containsDuplicate(self, nums: List[int]) -> bool:
-    s = set()
+def contains_duplicate(self, nums: List[int]) -> bool:
+    counted_nums = set()
     for number in nums:
-        if number in s:
+        if number in counted_nums:
             return True
-        s.add(number)
+        counted_nums.add(number)
     return False

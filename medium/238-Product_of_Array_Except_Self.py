@@ -1,4 +1,4 @@
-def productExceptSelf(self, nums: List[int]) -> List[int]:
+def product_except_self(self, nums: List[int]) -> List[int]:
     ans = [len(nums)]
     ans[0] = 1
     
