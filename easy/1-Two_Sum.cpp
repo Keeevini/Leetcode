@@ -1,9 +1,3 @@
-
-#include <vector>
-#include<unordered_map>
-
-using namespace std;
-
 vector<int> twoSum(vector<int>& nums, int target) {
 	unordered_map<int, int> m;
 	vector<int> ans;
@@ -20,9 +14,4 @@ vector<int> twoSum(vector<int>& nums, int target) {
 	}
 	
 	return ans;
-}
-
-int main() {
-	
-	return 0;
 }

@@ -1,12 +1,3 @@
-from typing import List
-
-
-def main():
-    exit()
-
-
-
-
 def two_sum(self, nums: List[int], target: int) -> List[int]:
     ans = []
     d = {}
@@ -19,6 +10,3 @@ def two_sum(self, nums: List[int], target: int) -> List[int]:
 
     d[val] = index
     return ans
-
-
-main()
